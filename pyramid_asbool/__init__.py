@@ -21,7 +21,10 @@ def asbool(txt):
         return txt
 
     if hasattr(txt, 'decode'):
-        txt = txt.decode('utf-8')
+        try:
+            txt = txt.decode('utf-8')
+        except UnicodeEncodeError:
+            pass
     else:
         txt = str(txt).strip()
 
