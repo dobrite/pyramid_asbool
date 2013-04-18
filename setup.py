@@ -25,7 +25,7 @@ requires = [
 ]
 
 setup(name='pyramid_asbool'
-      , version='dev'
+      , version='0.0.1'
       , description='Extension to support extra truthy items'
       , long_description=README + '\n\n' +  CHANGES
       , classifiers=[
