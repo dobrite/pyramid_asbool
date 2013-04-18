@@ -22,3 +22,9 @@ to
 
     pyramid.reload_templates = ✔
     pyramid.debug_authorization = ✖
+
+
+Vim
+===================
+If you are using vim, you can enter insert mode by typing `i` and then typing
+`ctrl-k` and then `OK` you will get the ✓ character
